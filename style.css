@@ -37,6 +37,7 @@ body{
 }
 .donate-today{
 text-align: center;
+margin-top: 100px;
 }
 .donate-today h1{
     font-size: 35px;
@@ -81,4 +82,35 @@ text-align: center;
     border: 0;
     margin-top: 20px;
     font-weight: bold;
+}
+.donate-plan{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-plan h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+#donate-plan{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.food{
+    background-color: rgb(229, 241, 255);
+    padding: 30px;
+    margin: 20px;
+}
+.shelter{
+    background-color: rgb(208, 230, 255);
+    padding: 30px;
+    margin: 20px;
+}
+.education{
+    background-color: rgb(166, 207, 255);
+    padding: 30px;
+    margin: 20px;
 }
