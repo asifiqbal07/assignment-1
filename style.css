@@ -116,6 +116,7 @@ margin-top: 100px;
 }
 .flexible-section{
     display: flex;
+    text-align: center;
 }
 .half-width{
     width: 50%;
@@ -124,9 +125,12 @@ margin-top: 100px;
     margin-right: 180px;
 }
 .extra-class-2{
-    margin-top: 100px;
+    margin-top: 80px;
     margin-right: 50px;
     width: 50%;
+}
+.extra-class-2 h1{
+    font-size: 30px;
 }
 .half-width img{
     width: 100%;
@@ -147,7 +151,54 @@ margin-top: 100px;
 .extra-class-3{
     width: 50%;
     margin-left: 0%;
-    margin-top: 250px;
+    margin-top: 180px;
+    text-align: center;
+    margin-right: 180px;
+}
+.extra-class-3 h1{
+    font-size: 30px;
+}
+.about-us{
+    text-align: center;
+    background-image: linear-gradient(rgba(44, 44, 44, 0.5), rgba(43, 43, 43, 0.5)), url(images/about\ us\ bg2.jpg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-size: 1920px 445px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.about-us h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-us-class{
+    width: 40%;
+    padding-left: 40px;
+    margin-right: 180px;
+}
+.about-us-class img{
+    width: 100%;
+    padding-left: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 8px solid white;
+}
+.about-us-text{
+    margin-top: 50px;
+    color: white;
+}
+.about-us-text p{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.about-us-button{
+    color: white;
+    background-image: linear-gradient(rgb(63, 149, 235), rgb(14, 111, 167));
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    text-decoration: none;
 }
 .update{
     text-align: center;
@@ -178,4 +229,23 @@ margin-top: 100px;
     padding: 5px 15px;
     margin-left: -230px;
     border: 0;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    border-left: 200px solid rgb(63, 149, 235);
+    border-right: 200px solid rgb(63, 149, 235);
+    border-top: 15px solid rgb(63, 149, 235);
+    border-bottom: 15px solid rgb(63, 149, 235);
+    background-color: rgb(63, 149, 235);
+}
+footer h1{
+    font-size: 40px;
+    font-weight: 900px;
+    color: white;
+    font-style: italic;
+}
+footer h5{
+    margin-top: -20px;
+    color: white;
 }
