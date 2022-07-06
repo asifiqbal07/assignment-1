@@ -149,3 +149,33 @@ margin-top: 100px;
     margin-left: 0%;
     margin-top: 250px;
 }
+.update{
+    text-align: center;
+    margin-top: 100px;
+}
+.update h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.email-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.email-box input{
+    margin-left: -140px;
+    border-left: 150px solid rgb(229, 241, 255);
+    border-right: 220px solid rgb(229, 241, 255);
+    border-top: 40px solid rgb(229, 241, 255);
+    border-bottom: 40px solid rgb(229, 241, 255);
+    background-color: rgb(224, 224, 224);
+    padding: 5px 10px;
+    
+}
+.subscribe-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(63, 149, 235), rgb(14, 111, 167));
+    padding: 5px 15px;
+    margin-left: -230px;
+    border: 0;
+}
