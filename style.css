@@ -33,7 +33,6 @@ body{
     background-image: linear-gradient(rgb(63, 149, 235), rgb(14, 111, 167));
     padding: 10px 20px;
     border-radius: 5px;
-    font-weight: bold;
 }
 .donate-today{
 text-align: center;
@@ -53,6 +52,7 @@ margin-top: 100px;
     text-align: center;
     line-height: 75px;
     font-size: 20px;
+    border-radius: 10px;
 }
 .donation-box-without-color{
     color: rgb(32, 32, 32);
@@ -113,4 +113,39 @@ margin-top: 100px;
     background-color: rgb(166, 207, 255);
     padding: 30px;
     margin: 20px;
+}
+.flexible-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 40px;
+    margin-right: 180px;
+}
+.extra-class-2{
+    margin-top: 100px;
+    margin-right: 50px;
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+}
+.extra-class-1{
+    margin-bottom: 30px;
+}
+.contribute-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(63, 149, 235), rgb(14, 111, 167));
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: -500px;
+}
+.extra-class-3{
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 250px;
 }
